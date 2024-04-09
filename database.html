@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>eCommerce Site</title>
+</head>
+<body>
+<div id="wrapper">
+
+    <div id="header">
+        <div><img src="/resources/droneLogo.png"></div>
+        <div><h1>The Drone Factory</h1></div>
+        <div><img src="/resources/droneLogo.png"></div>
+    </div>
+
+    <div id="menu">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="media.html">Media</a>
+        <a href="database.html">Database</a>
+    </div>
+
+    <form>
+        <label for="droneModel">Drone Model</label><br>
+        <input id="droneModel" type="text" placeholder="Enter drone model"><br><br>
+        <label for="dronePic">Image</label><br>
+        <input id="dronePicInput" type="file" placeholder="Upload image"><br><br>
+        <label for="price">Price</label><br>
+        <input id="price" type="number" placeholder="Enter price"><br><br>
+
+        <button onclick="addDrone()">Submit</button>
+    </form>
+        
+</div>
+</body>
+</html>
